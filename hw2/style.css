@@ -1,0 +1,470 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    margin: 16px 52px;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerBlock {
+    display: flex;
+}
+.navButton {
+    margin-right: 40px;
+    color: #282828;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: none;
+}
+.product {
+    padding-right: 2px;
+    display: flex;
+}
+.icons {
+    margin-right: 20px;
+}
+.basket {
+    margin-right: 0;
+}
+.basketValue {
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #333333;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    color: azure;
+}
+.images{
+    margin: 16px 0px ;
+}
+.rightButton{
+    display: flex;
+    width: 52px;
+    height: 52px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #FFF;
+
+    /* Shadow/01 */
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.06);
+}
+.leftButton{
+    display: flex;
+    width: 52px;
+    height: 52px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #FFF;
+
+    /* Shadow/01 */
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.06);
+}
+.intro{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.introImg{
+    width: 736px;
+    height: 700px;
+}
+.intro div{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 162.5%;
+}
+.introLeftButton{
+    position: absolute;
+    margin-left: 52px;
+}
+.intro div p{
+    margin: 8px 0;
+}
+.introTextOne{
+    margin: 8px 0;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 114.815%;
+    letter-spacing: -1px;
+}
+.intro div a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: -0.4px;
+    text-decoration: underline;
+}
+.intro button{
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    margin-right: 52px;
+}
+.intro button img{
+    width: 32px;
+    height: 32px;
+}
+.introText{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.667%;
+}
+.picture{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 82px;
+}
+.logosBlock{
+    display: flex;
+    align-items: center;
+    margin: 52px;
+    height: auto;
+    justify-content: space-between;
+    border-top: 1px solid #D0D5DD;
+    border-bottom: 1px solid #D0D5DD;
+}
+.logosBlockRightButton{
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+.logosBlockLeftButton{
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+.logos{
+    display: flex;
+    gap: 48px;
+    padding: 56px;
+    justify-content: center;
+}
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 52px;
+}
+.banner div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Inter;
+}
+.banner div p {
+    margin-top: 16px;
+    margin-bottom: 0;
+    color: #5F6980;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 162.5%;
+}
+.banner div h4 {
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+.sale{
+    display: flex;
+    align-items: center;
+    margin: 52px;
+    gap: 114px;
+}
+.sale div{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 162.5%;
+}
+.sale div p{
+    margin: 8px 0;
+}
+.sale div h3{
+    margin: 8px 0;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 114.815%;
+    letter-spacing: -1px;
+}
+.sale div h5{
+    margin-top: 24px;
+    margin-bottom: 32px;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 117.647%;
+    letter-spacing: -0.4px;
+}
+.sale div button{
+    display: flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.sale div button h6{
+    color: #FFFFFF;
+    margin: 0;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 177.778%;
+}
+
+.saleText{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.667%;
+}
+.cta{
+    display: flex;
+    margin: 52px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D0D5DD;
+    border-radius: 10px;
+}
+.cta div{
+    font-family: Inter;
+}
+
+.signUpHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+    border: none;
+}
+.signUpHeader h4{
+    margin-top: 0;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 128.571%;
+    letter-spacing: -0.4px;
+    margin-bottom: 8px;
+}
+.signUpHeader p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.667%;
+    margin: 0;
+}
+
+.signUpForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+    width: 100%;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-bottom: 1px solid #D0D5DD;
+}
+.signUpForm form{
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+.signUpForm form input{
+    border: none;
+}
+.signUpForm button{
+    background-color: #FFFFFF;
+    color: black;
+    border: none;
+    font-family: Inter;
+}
+.wrapper {
+    position: absolute;
+}
+
+.background {
+    width: 100%;
+    height: 336px;
+    position: relative;
+}
+.bannerImg{
+    display: flex;
+    margin: 52px;
+    justify-content: center;
+    align-items: center;
+}
+.bannerImg img{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.bannerImg div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    font-family: Inter;
+}
+.bannerImg div h4{
+    margin-top: 0;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 128.571%;
+    letter-spacing: -0.4px;
+    margin-bottom: 8px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+}
+.bannerImg div p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.667%;
+    color: #FFFFFF;
+    margin: 0;
+}
+.bannerButton{
+    margin-top: 24px;
+    font-family: Inter;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background: none;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 52px;
+}
+
+.footerHeader{
+    margin-right: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 72px;
+}
+
+.footerContacts{
+    display: flex;
+    flex-direction: column;
+}
+.footerContacts img{
+    width: 119px;
+    height: 36px;
+}
+.footerContactsText{
+    margin-bottom: 24px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 162.5%;
+    color: #475467;
+    font-family: Inter;
+}
+.footerContacts div{
+    display: flex;
+    gap: 16px;
+}
+.footerContacts div button{
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    padding: 9px;
+    border: none;
+}
+.footerContacts div button img{
+    width: 18px;
+    height: 18px;
+}
+
+.footerLink{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+.footerLink ul{
+    font-family: Inter;
+    list-style: none;
+}
+.footerLink ul li{
+    margin-bottom: 12px;
+}
+
+.footerLinkHeader{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 171.429%;
+    margin-bottom: 16px;
+}
+
+.footerLinkLi{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.143%;
+    color: #5F6980;
+}
+
+.footerBottom{
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    margin-right: 104px;
+    border-top: 1px solid #D0D5DD;
+    justify-content: space-between;
+}
+.footerBottom nav{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.footerBottom nav div{
+    display: flex;
+    align-items: center;
+    font-family: Inter;
+}
+.footerBottom nav div p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 171.429%;
+}
+
+.flag{
+    margin-right: 8px;
+}
+
+.p{
+    font-family: Inter;
+    color: #5F6980;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.143%;
+}
+
+
+
+
